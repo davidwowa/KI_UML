@@ -25,6 +25,9 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_39bochYQEeaNKu81JL3t7w" name="observe" client="_39bocBYQEeaNKu81JL3t7w" supplier="_39cPhxYQEeaNKu81JL3t7w"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_39bocxYQEeaNKu81JL3t7w" name="execute" client="_39bocBYQEeaNKu81JL3t7w" supplier="_39c2lBYQEeaNKu81JL3t7w"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_39bodBYQEeaNKu81JL3t7w" client="_39bocBYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ozgf8BYfEeaNKu81JL3t7w" name="executor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZlQyUBYfEeaNKu81JL3t7w" name="solver" type="_9M-V0BYYEeaNKu81JL3t7w"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_39cPgBYQEeaNKu81JL3t7w" name="Cache">
     <ownedComment xmi:type="uml:Comment" xmi:id="_39cPgRYQEeaNKu81JL3t7w" annotatedElement="_39cPgBYQEeaNKu81JL3t7w">
@@ -62,6 +65,15 @@ Außerdem ist beliebig erweiterbar mit weiteren Solvers.</body>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZHGFEBYeEeaNKu81JL3t7w" name="tree_solver">
+      <generalization xmi:type="uml:Generalization" xmi:id="_uLUs0BYeEeaNKu81JL3t7w" general="_9M-V0BYYEeaNKu81JL3t7w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Zw0-kBYeEeaNKu81JL3t7w" name="csp_solver">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tqDLwBYeEeaNKu81JL3t7w" general="_9M-V0BYYEeaNKu81JL3t7w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eDgUsBYeEeaNKu81JL3t7w" name="belif_network_solver">
+      <generalization xmi:type="uml:Generalization" xmi:id="_rtA3UBYeEeaNKu81JL3t7w" general="_9M-V0BYYEeaNKu81JL3t7w"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_39cPihYQEeaNKu81JL3t7w" name="Controller">
     <packagedElement xmi:type="uml:Dependency" xmi:id="_39cPixYQEeaNKu81JL3t7w" client="_39cPihYQEeaNKu81JL3t7w" supplier="_39bBYBYQEeaNKu81JL3t7w"/>
@@ -89,6 +101,9 @@ Außerdem ist beliebig erweiterbar mit weiteren Solvers.</body>
       <body>Führt die Befehler von Executor aus.</body>
     </ownedComment>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_39c2lhYQEeaNKu81JL3t7w" client="_39c2lBYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pTp90BYfEeaNKu81JL3t7w" name="mapper">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_svcvQBYfEeaNKu81JL3t7w" name="map"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_t8T14BYdEeaNKu81JL3t7w" name="sensor_data">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_t8T14RYdEeaNKu81JL3t7w" name="id">
