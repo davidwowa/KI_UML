@@ -1,58 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:EmbeddedCProfile.Stereotypes="http:///EmbeddedCProfile/Stereotypes.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///EmbeddedCProfile/Stereotypes.ecore pathmap://EmbeddedC_PROFILES/EmbeddedCProfile/Embedded_C_Profile.profile.uml#__8f5dedrEeSwvb99mCgc6w">
-  <uml:Model xmi:id="_136wQBXKEeawhv9qooyDLw" name="RootElement">
-    <packagedElement xmi:type="uml:Class" xmi:id="_7w2SgBXKEeawhv9qooyDLw" name="flow_decider"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_mBGLQBX7Eeawhv9qooyDLw" memberEnd="_mBGyUhX7Eeawhv9qooyDLw _mBGyUxX7Eeawhv9qooyDLw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mBGyUBX7Eeawhv9qooyDLw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mBGyURX7Eeawhv9qooyDLw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_mBGyUxX7Eeawhv9qooyDLw" name="main_controller" type="_PPljIBXLEeawhv9qooyDLw" association="_mBGLQBX7Eeawhv9qooyDLw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mBvEcBX7Eeawhv9qooyDLw" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mBvrgBX7Eeawhv9qooyDLw" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_naWdMBX7Eeawhv9qooyDLw" memberEnd="_naXrUBX7Eeawhv9qooyDLw _naXrURX7Eeawhv9qooyDLw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_naXEQBX7Eeawhv9qooyDLw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_naXEQRX7Eeawhv9qooyDLw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_naXrURX7Eeawhv9qooyDLw" name="main_controller" type="_PPljIBXLEeawhv9qooyDLw" association="_naWdMBX7Eeawhv9qooyDLw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nbEO4BX7Eeawhv9qooyDLw" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nbEO4RX7Eeawhv9qooyDLw" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_7tf-kBYBEeawhv9qooyDLw" name="Base" URI="">
-      <packagedElement xmi:type="uml:Class" xmi:id="_PPljIBXLEeawhv9qooyDLw" name="main_controller" visibility="public">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_qsGTEBYBEeawhv9qooyDLw" annotatedElement="_PPljIBXLEeawhv9qooyDLw">
-          <body>Initialisiert Start</body>
-        </ownedComment>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_mBGyUhX7Eeawhv9qooyDLw" name="input" type="_6c6lcBXKEeawhv9qooyDLw" aggregation="composite" association="_mBGLQBX7Eeawhv9qooyDLw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mBudYBX7Eeawhv9qooyDLw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mBudYRX7Eeawhv9qooyDLw" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_naXrUBX7Eeawhv9qooyDLw" name="flow_decider" type="_7w2SgBXKEeawhv9qooyDLw" aggregation="composite" association="_naWdMBX7Eeawhv9qooyDLw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nbDn0BX7Eeawhv9qooyDLw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nbDn0RX7Eeawhv9qooyDLw" value="1"/>
-        </ownedAttribute>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_V083UBX8Eeawhv9qooyDLw" name="init"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_Xild0BX8Eeawhv9qooyDLw" name="run"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_6c6lcBXKEeawhv9qooyDLw" name="input"/>
-    </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_17bXQBXKEeawhv9qooyDLw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_17mWYBXKEeawhv9qooyDLw" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9cBXKEeawhv9qooyDLw" key="Version" value="0.1.1"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9cRXKEeawhv9qooyDLw" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9chXKEeawhv9qooyDLw" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9cxXKEeawhv9qooyDLw" key="Date" value="2015-04-20"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9dBXKEeawhv9qooyDLw" key="Author" value=""/>
-      </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_17gPwBXKEeawhv9qooyDLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://EmbeddedC_PROFILES/EmbeddedCProfile/Embedded_C_Profile.profile.uml#__8fSQOdrEeSwvb99mCgc6w"/>
-      </eAnnotations>
-      <appliedProfile xmi:type="uml:Profile" href="pathmap://EmbeddedC_PROFILES/EmbeddedCProfile/Embedded_C_Profile.profile.uml#_Gu76QDTiEeSRWvc528PAGQ"/>
-    </profileApplication>
-  </uml:Model>
-  <EmbeddedCProfile.Stereotypes:Singleton xmi:id="_wgMYoBYBEeawhv9qooyDLw" base_Class="_PPljIBXLEeawhv9qooyDLw"/>
-  <EmbeddedCProfile.Stereotypes:Singleton xmi:id="_yjshcBYBEeawhv9qooyDLw" base_Class="_6c6lcBXKEeawhv9qooyDLw"/>
-  <EmbeddedCProfile.Stereotypes:Singleton xmi:id="_zxRu4BYBEeawhv9qooyDLw" base_Class="_7w2SgBXKEeawhv9qooyDLw"/>
-</xmi:XMI>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_136wQBXKEeawhv9qooyDLw" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_SObwsBYJEeaIRZusO0uDTQ" name="Plausibility">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_l8srEBYJEeaIRZusO0uDTQ" annotatedElement="_SObwsBYJEeaIRZusO0uDTQ">
+      <body>Strukturen die unterschiedliche Abläufe und Zustände validieren können und auf plausibilität prüfen.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_l-hlIBYLEeaIRZusO0uDTQ" name="check" client="_136wQBXKEeawhv9qooyDLw" supplier="_lzhrgBYKEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_3fPp4BYLEeaIRZusO0uDTQ" name="check" client="_SObwsBYJEeaIRZusO0uDTQ" supplier="_TyK-4BYKEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_5We4UBYLEeaIRZusO0uDTQ" name="check" client="_SObwsBYJEeaIRZusO0uDTQ" supplier="_TVMkcBYJEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_6n8gMBYLEeaIRZusO0uDTQ" name="check" client="_SObwsBYJEeaIRZusO0uDTQ" supplier="_TqXjMBYJEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_8yfFIBYLEeaIRZusO0uDTQ" name="check" client="_SObwsBYJEeaIRZusO0uDTQ" supplier="_qPGe8BYKEeaIRZusO0uDTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_S6iBsBYJEeaIRZusO0uDTQ" name="Cache">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_2ND7MBYJEeaIRZusO0uDTQ" annotatedElement="_S6iBsBYJEeaIRZusO0uDTQ">
+      <body>Eine Art Activity-Log, bei dem alle möglichen Zustandsänderungen bzw. Abläufe gespichert werden.&#xD;
+Es hat aber eine begrenzte Anzahl von Speicherschritten, Bsp. max 50.</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TVMkcBYJEeaIRZusO0uDTQ" name="Solvers">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_BWoQoBYKEeaIRZusO0uDTQ" annotatedElement="_TVMkcBYJEeaIRZusO0uDTQ">
+      <body>Beinhaltet unterschiedlichen Implementierungen von KI-Instrumenten, z.B. CPS-Core, Belife-Networks&#xD;
+oder Fuzzy-Logic.&#xD;
+Außerdem ist beliebig erweiterbar mit weiteren Solvers.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_WpgGcBYMEeaIRZusO0uDTQ" client="_TVMkcBYJEeaIRZusO0uDTQ" supplier="_S6iBsBYJEeaIRZusO0uDTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TqXjMBYJEeaIRZusO0uDTQ" name="Execution">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_OZHPgBYKEeaIRZusO0uDTQ" annotatedElement="_TqXjMBYJEeaIRZusO0uDTQ">
+      <body>Übersetzt Lösung von Solvers in digitale Signale um.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="__XexcBYLEeaIRZusO0uDTQ" name="observe" client="_TqXjMBYJEeaIRZusO0uDTQ" supplier="_TVMkcBYJEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_BVOQgBYMEeaIRZusO0uDTQ" name="execute" client="_TqXjMBYJEeaIRZusO0uDTQ" supplier="_qPGe8BYKEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_XkWlIBYMEeaIRZusO0uDTQ" client="_TqXjMBYJEeaIRZusO0uDTQ" supplier="_S6iBsBYJEeaIRZusO0uDTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TyK-4BYKEeaIRZusO0uDTQ" name="Flow">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_eY7iMBYKEeaIRZusO0uDTQ" annotatedElement="_TyK-4BYKEeaIRZusO0uDTQ">
+      <body>Beinhlatet die Implementierung der Entescheidungen. Anhand der Daten die in Package &quot;Input&quot; &#xD;
+befinden, wird unterscheiden welchen Solver zum Einsatz kommt.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_WbFFYBYLEeaIRZusO0uDTQ" name="observe" client="_TyK-4BYKEeaIRZusO0uDTQ" supplier="_lzhrgBYKEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_VowbIBYMEeaIRZusO0uDTQ" client="_TyK-4BYKEeaIRZusO0uDTQ" supplier="_S6iBsBYJEeaIRZusO0uDTQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0DhUcBYMEeaIRZusO0uDTQ" client="_TyK-4BYKEeaIRZusO0uDTQ" supplier="_TVMkcBYJEeaIRZusO0uDTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lzhrgBYKEeaIRZusO0uDTQ" name="Input">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_p2iN8BYKEeaIRZusO0uDTQ" annotatedElement="_lzhrgBYKEeaIRZusO0uDTQ">
+      <body>Stellt die Zustände von Sensoren dar.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Q_mesBYMEeaIRZusO0uDTQ" client="_lzhrgBYKEeaIRZusO0uDTQ" supplier="_S6iBsBYJEeaIRZusO0uDTQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_qPGe8BYKEeaIRZusO0uDTQ" name="Output">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_uNN6UBYKEeaIRZusO0uDTQ" annotatedElement="_qPGe8BYKEeaIRZusO0uDTQ">
+      <body>Führt die Befehler von Executor aus.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Yty5cBYMEeaIRZusO0uDTQ" client="_qPGe8BYKEeaIRZusO0uDTQ" supplier="_S6iBsBYJEeaIRZusO0uDTQ"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_17bXQBXKEeawhv9qooyDLw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_17mWYBXKEeawhv9qooyDLw" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9cBXKEeawhv9qooyDLw" key="Version" value="0.1.1"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9cRXKEeawhv9qooyDLw" key="Comment" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9chXKEeawhv9qooyDLw" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9cxXKEeawhv9qooyDLw" key="Date" value="2015-04-20"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_17m9dBXKEeawhv9qooyDLw" key="Author" value=""/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_17gPwBXKEeawhv9qooyDLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://EmbeddedC_PROFILES/EmbeddedCProfile/Embedded_C_Profile.profile.uml#__8fSQOdrEeSwvb99mCgc6w"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://EmbeddedC_PROFILES/EmbeddedCProfile/Embedded_C_Profile.profile.uml#_Gu76QDTiEeSRWvc528PAGQ"/>
+  </profileApplication>
+</uml:Model>
