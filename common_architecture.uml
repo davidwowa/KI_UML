@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_136wQBXKEeawhv9qooyDLw" name="RootElement">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_136wQBXKEeawhv9qooyDLw" name="common">
   <ownedComment xmi:type="uml:Comment" xmi:id="_7JZVgBYNEeaNKu81JL3t7w">
     <body>Die rot markierten Abhängigkeiten stellen die allgemeinen Datenfluss dar.</body>
   </ownedComment>
