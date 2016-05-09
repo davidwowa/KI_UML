@@ -1,8 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MLA9EBYGEeavXd0Doi-_HA" name="RootElement">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MLA9EBYGEeavXd0Doi-_HA" name="AI">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_39cPjBYQEeaNKu81JL3t7w">
+    <body>Die rot markierten Abhängigkeiten stellen die allgemeinen Datenfluss dar.</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_MVbdUBYGEeavXd0Doi-_HA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39bBYBYQEeaNKu81JL3t7w" name="Plausibility">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39bBYRYQEeaNKu81JL3t7w" annotatedElement="_39bBYBYQEeaNKu81JL3t7w">
+      <body>Strukturen die unterschiedliche Abläufe und Zustände validieren können und auf plausibilität prüfen.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bBYhYQEeaNKu81JL3t7w" name="check" supplier="_39c2kBYQEeaNKu81JL3t7w">
+      <client xmi:type="uml:Model" href="common_architecture.uml#_136wQBXKEeawhv9qooyDLw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bBYxYQEeaNKu81JL3t7w" name="check" client="_39bBYBYQEeaNKu81JL3t7w" supplier="_39cPghYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bBZBYQEeaNKu81JL3t7w" name="check" client="_39bBYBYQEeaNKu81JL3t7w" supplier="_39cPhxYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bBZRYQEeaNKu81JL3t7w" name="check" client="_39bBYBYQEeaNKu81JL3t7w" supplier="_39bocBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bBZhYQEeaNKu81JL3t7w" name="check" client="_39bBYBYQEeaNKu81JL3t7w" supplier="_39c2lBYQEeaNKu81JL3t7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39bocBYQEeaNKu81JL3t7w" name="Execution">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39bocRYQEeaNKu81JL3t7w" annotatedElement="_39bocBYQEeaNKu81JL3t7w">
+      <body>Übersetzt Lösung von Solvers in digitale Signale um.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bochYQEeaNKu81JL3t7w" name="observe" client="_39bocBYQEeaNKu81JL3t7w" supplier="_39cPhxYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bocxYQEeaNKu81JL3t7w" name="execute" client="_39bocBYQEeaNKu81JL3t7w" supplier="_39c2lBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39bodBYQEeaNKu81JL3t7w" client="_39bocBYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39cPgBYQEeaNKu81JL3t7w" name="Cache">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39cPgRYQEeaNKu81JL3t7w" annotatedElement="_39cPgBYQEeaNKu81JL3t7w">
+      <body>Eine Art Activity-Log, bei dem alle möglichen Zustandsänderungen bzw. Abläufe gespichert werden.&#xD;
+Es hat aber eine begrenzte Anzahl von Speicherschritten, Bsp. max 50.</body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39cPghYQEeaNKu81JL3t7w" name="Flow">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39cPgxYQEeaNKu81JL3t7w" annotatedElement="_39cPghYQEeaNKu81JL3t7w">
+      <body>Beinhlatet die Implementierung der Entescheidungen. Anhand der Daten die in Package &quot;Input&quot; &#xD;
+befinden, wird unterscheiden welchen Solver zum Einsatz kommt.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39cPhBYQEeaNKu81JL3t7w" name="observe" client="_39cPghYQEeaNKu81JL3t7w" supplier="_39c2kBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39cPhRYQEeaNKu81JL3t7w" client="_39cPghYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39cPhhYQEeaNKu81JL3t7w" client="_39cPghYQEeaNKu81JL3t7w" supplier="_39cPhxYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_d5bekBYREeaNKu81JL3t7w" name="flow_decider">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vZfcABYREeaNKu81JL3t7w" name="state_data" visibility="private" type="_628zQBYQEeaNKu81JL3t7w" isReadOnly="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dugHUBYZEeaNKu81JL3t7w" name="solver" type="_9M-V0BYYEeaNKu81JL3t7w"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_FoAPIBYeEeaNKu81JL3t7w" name="decide"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_G6a5QBYeEeaNKu81JL3t7w" name="run"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39cPhxYQEeaNKu81JL3t7w" name="Solvers">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39cPiBYQEeaNKu81JL3t7w" annotatedElement="_39cPhxYQEeaNKu81JL3t7w">
+      <body>Beinhaltet unterschiedlichen Implementierungen von KI-Instrumenten, z.B. CPS-Core, Belife-Networks&#xD;
+oder Fuzzy-Logic.&#xD;
+Außerdem ist beliebig erweiterbar mit weiteren Solvers.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39cPiRYQEeaNKu81JL3t7w" client="_39cPhxYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_9M-V0BYYEeaNKu81JL3t7w" name="ai_solver_facade">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_zT7XoBYZEeaNKu81JL3t7w" name="solve" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_AsTG8BYaEeaNKu81JL3t7w" name="sensor_data_array" type="_t8T14BYdEeaNKu81JL3t7w">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6HA4MBYdEeaNKu81JL3t7w"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6HGXwBYdEeaNKu81JL3t7w" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39cPihYQEeaNKu81JL3t7w" name="Controller">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39cPixYQEeaNKu81JL3t7w" client="_39cPihYQEeaNKu81JL3t7w" supplier="_39bBYBYQEeaNKu81JL3t7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39c2kBYQEeaNKu81JL3t7w" name="Input">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39c2kRYQEeaNKu81JL3t7w" annotatedElement="_39c2kBYQEeaNKu81JL3t7w">
+      <body>Stellt die Zustände von Sensoren dar.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39c2khYQEeaNKu81JL3t7w">
+      <body>Stellt die Zustände von Sensoren dar.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39c2kxYQEeaNKu81JL3t7w" client="_39c2kBYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_628zQBYQEeaNKu81JL3t7w" name="state_data_manager">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MwrXcBYdEeaNKu81JL3t7w" name="sensor_data_array" type="_t8T14BYdEeaNKu81JL3t7w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WrKDkBYdEeaNKu81JL3t7w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WrNt8BYdEeaNKu81JL3t7w" value="*"/>
+      </ownedAttribute>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_KYuxOBYaEeaNKu81JL3t7w" name="Reception1"/>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_LCZ_IBYaEeaNKu81JL3t7w" name="Reception2"/>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_LNnwoBYaEeaNKu81JL3t7w" name="Reception3"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_39c2lBYQEeaNKu81JL3t7w" name="Output">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_39c2lRYQEeaNKu81JL3t7w" annotatedElement="_39c2lBYQEeaNKu81JL3t7w">
+      <body>Führt die Befehler von Executor aus.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_39c2lhYQEeaNKu81JL3t7w" client="_39c2lBYQEeaNKu81JL3t7w" supplier="_39cPgBYQEeaNKu81JL3t7w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_t8T14BYdEeaNKu81JL3t7w" name="sensor_data">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t8T14RYdEeaNKu81JL3t7w" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t8T14hYdEeaNKu81JL3t7w" name="owner">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t8T14xYdEeaNKu81JL3t7w" name="bool_value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_t8T15BYdEeaNKu81JL3t7w" name="numeric_value">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MMm4gBYGEeavXd0Doi-_HA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MMu0UBYGEeavXd0Doi-_HA" source="PapyrusVersion">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MMu0URYGEeavXd0Doi-_HA" key="Version" value="0.1.1"/>

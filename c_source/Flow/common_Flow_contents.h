@@ -1,5 +1,0 @@
-#ifndef COMMON_FLOW_CONTENTS_H_
-#define COMMON_FLOW_CONTENTS_H_
-
-
-#endif

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_13_BsBXKEeawhv9qooyDLw" type="PapyrusUMLClassDiagram" name="Merapi Class Diagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_13_BsBXKEeawhv9qooyDLw" type="PapyrusUMLClassDiagram" name="Merapi Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_LPgykBYQEeaNKu81JL3t7w" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LPgykhYQEeaNKu81JL3t7w" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_LPhZoBYQEeaNKu81JL3t7w" type="Package_PackagedElementCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_LPhZoRYQEeaNKu81JL3t7w"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPhZohYQEeaNKu81JL3t7w"/>
+    </children>
+    <element xmi:type="uml:Package" href="common_architecture.uml#_LPar8BYQEeaNKu81JL3t7w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LPgykRYQEeaNKu81JL3t7w" x="760" y="600" width="262" height="111"/>
+  </children>
   <children xmi:type="notation:Shape" xmi:id="_whA4ABYBEeawhv9qooyDLw" type="StereotypeComment">
     <styles xmi:type="notation:TitleStyle" xmi:id="_whA4ARYBEeawhv9qooyDLw" showTitle="true"/>
     <styles xmi:type="notation:EObjectValueStyle" xmi:id="_whCGIBYBEeawhv9qooyDLw" name="BASE_ELEMENT"/>
@@ -72,6 +81,9 @@
   <children xmi:type="notation:Shape" xmi:id="_lzrcgBYKEeaIRZusO0uDTQ" type="Package_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_lzrcghYKEeaIRZusO0uDTQ" type="Package_NameLabel"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_lzrcgxYKEeaIRZusO0uDTQ" type="Package_PackagedElementCompartment">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EmP_kBYQEeaNKu81JL3t7w" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EmQmoBYQEeaNKu81JL3t7w" key="collapsed" value="true"/>
+      </eAnnotations>
       <styles xmi:type="notation:TitleStyle" xmi:id="_lzrchBYKEeaIRZusO0uDTQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lzrchRYKEeaIRZusO0uDTQ"/>
     </children>
@@ -280,5 +292,18 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0DqeYhYMEeaIRZusO0uDTQ" points="[620, 240, -643984, -643984]$[786, 320, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ELbwBYMEeaIRZusO0uDTQ" id="(1.0,0.6)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0ELbwRYMEeaIRZusO0uDTQ" id="(0.0,0.56)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XTxOoBYQEeaNKu81JL3t7w" type="Dependency_Edge" source="_LPgykBYQEeaNKu81JL3t7w" target="_SOk6oBYJEeaIRZusO0uDTQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XTx1sBYQEeaNKu81JL3t7w" type="Dependency_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XTx1sRYQEeaNKu81JL3t7w" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XTycwBYQEeaNKu81JL3t7w" type="Dependency_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XTycwRYQEeaNKu81JL3t7w" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XTxOoRYQEeaNKu81JL3t7w"/>
+    <element xmi:type="uml:Dependency" href="common_architecture.uml#_XTaCQBYQEeaNKu81JL3t7w"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XTxOohYQEeaNKu81JL3t7w" points="[889, 622, -643984, -643984]$[889, 560, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XUwtIBYQEeaNKu81JL3t7w" id="(0.4961832061068702,0.20420420420420388)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XUxUMBYQEeaNKu81JL3t7w" id="(0.5,1.0)"/>
   </edges>
 </notation:Diagram>

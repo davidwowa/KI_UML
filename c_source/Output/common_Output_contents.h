@@ -1,5 +1,0 @@
-#ifndef COMMON_OUTPUT_CONTENTS_H_
-#define COMMON_OUTPUT_CONTENTS_H_
-
-
-#endif

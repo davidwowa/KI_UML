@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="de">
+      <map/>
+      <node name="wst">
+        <map/>
+        <node name="wstxchanger">
+          <map/>
+          <node name="core">
+            <map/>
+            <node name="exporterImporter">
+              <map/>
+              <node name="option">
+                <map/>
+                <node name="persistence">
+                  <map>
+                    <entry key="de.wst.modelxchanger.model.importer.uml2.option.SourceFileOption" value="C:\Users\toronto\git\KI_UML\KI2\class_graph.uml"/>
+                    <entry key="de.wst.modelXChanger.C.export.CExporter.sourceFolderOption" value="C:\Users\toronto\git\KI_UML\KI2\c_source"/>
+                    <entry key="de.wst.modelxchanger.c.export.copyAdditionalFiles" value="true"/>
+                    <entry key="de.wst.modelXChanger.C.export.CExporter.alternativeTemplatesOption" value=""/>
+                    <entry key="de.wst.wstxchanger.core.exporterImporter.option.stacktrace" value="false"/>
+                    <entry key="de.wst.modelXChanger.core.lastConfigFiles0" value="C:\Users\toronto\git\KI_UML\KI2\.sensor.uml.mxc"/>
+                    <entry key="de.wst.modelXChanger.core.lastUsedImporterKey" value="de.wst.modelXChanger.model.uml2.importer"/>
+                    <entry key="de.wst.modelXChanger.core.lastUsedExporterKey" value="de.wst.modelXChanger.C.export.CExporter"/>
+                    <entry key="de.wst.modelXChanger.core.lastConfigFiles1" value="C:\Users\toronto\git\KI_UML\KI2\.class_graph.uml.mxc"/>
+                    <entry key="de.wst.modelXChanger.core.lastConfigFiles2" value="C:\Users\toronto\git\KI_UML\KI2\.common_architecture.uml.mxc"/>
+                  </map>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>

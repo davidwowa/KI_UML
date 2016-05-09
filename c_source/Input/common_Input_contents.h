@@ -1,5 +1,0 @@
-#ifndef COMMON_INPUT_CONTENTS_H_
-#define COMMON_INPUT_CONTENTS_H_
-
-
-#endif

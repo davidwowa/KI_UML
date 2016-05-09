@@ -1,5 +1,0 @@
-#ifndef COMMON_EXECUTION_CONTENTS_H_
-#define COMMON_EXECUTION_CONTENTS_H_
-
-
-#endif
