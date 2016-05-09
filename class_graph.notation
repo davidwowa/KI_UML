@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_MLRbwBYGEeavXd0Doi-_HA" type="PapyrusUMLClassDiagram" name="Merapi Class Diagram" measurementUnit="Pixel">
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_MLRbwRYGEeavXd0Doi-_HA" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_MLRbwhYGEeavXd0Doi-_HA"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_MLRbwxYGEeavXd0Doi-_HA">
+    <owner xmi:type="uml:Model" href="class_graph.uml#_MLA9EBYGEeavXd0Doi-_HA"/>
+    <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/de.ostfalia.merapi.uml.diagram/resources/configuration/MerapiUML.configuration#_IpH4IEbYEeWJh8evOXRbXg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="class_graph.uml#_MLA9EBYGEeavXd0Doi-_HA"/>
+</notation:Diagram>
