@@ -1,0 +1,5 @@
+#ifndef COMMON_CACHE_CONTENTS_H_
+#define COMMON_CACHE_CONTENTS_H_
+
+
+#endif
