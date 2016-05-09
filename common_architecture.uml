@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_136wQBXKEeawhv9qooyDLw" name="RootElement">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_7JZVgBYNEeaNKu81JL3t7w">
+    <body>Die rot markierten Abhängigkeiten stellen die allgemeinen Datenfluss dar.</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Package" xmi:id="_SObwsBYJEeaIRZusO0uDTQ" name="Plausibility">
     <ownedComment xmi:type="uml:Comment" xmi:id="_l8srEBYJEeaIRZusO0uDTQ" annotatedElement="_SObwsBYJEeaIRZusO0uDTQ">
       <body>Strukturen die unterschiedliche Abläufe und Zustände validieren können und auf plausibilität prüfen.</body>
@@ -43,6 +46,9 @@ befinden, wird unterscheiden welchen Solver zum Einsatz kommt.</body>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_lzhrgBYKEeaIRZusO0uDTQ" name="Input">
     <ownedComment xmi:type="uml:Comment" xmi:id="_p2iN8BYKEeaIRZusO0uDTQ" annotatedElement="_lzhrgBYKEeaIRZusO0uDTQ">
+      <body>Stellt die Zustände von Sensoren dar.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_RK3BkBYOEeaNKu81JL3t7w">
       <body>Stellt die Zustände von Sensoren dar.</body>
     </ownedComment>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Q_mesBYMEeaIRZusO0uDTQ" client="_lzhrgBYKEeaIRZusO0uDTQ" supplier="_S6iBsBYJEeaIRZusO0uDTQ"/>

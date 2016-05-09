@@ -87,6 +87,11 @@
     <element xmi:type="uml:Package" href="common_architecture.uml#_qPGe8BYKEeaIRZusO0uDTQ"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qPQP8RYKEeaIRZusO0uDTQ" x="1456" y="140"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_7KW-0BYNEeaNKu81JL3t7w" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7KW-0hYNEeaNKu81JL3t7w" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="common_architecture.uml#_7JZVgBYNEeaNKu81JL3t7w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7KW-0RYNEeaNKu81JL3t7w" x="118" y="40" width="221"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_13_BsRXKEeawhv9qooyDLw" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_13_BshXKEeawhv9qooyDLw"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_13_BsxXKEeawhv9qooyDLw">
