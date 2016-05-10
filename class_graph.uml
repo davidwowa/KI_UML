@@ -3,6 +3,41 @@
   <ownedComment xmi:type="uml:Comment" xmi:id="_39cPjBYQEeaNKu81JL3t7w">
     <body>Die rot markierten Abhängigkeiten stellen die allgemeinen Datenfluss dar.</body>
   </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_DYjCABbvEeaFtM-S9mwO1Q">
+    <body>Hat alle Informationen über Sensoren in einem Array&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_QelEIBbvEeaFtM-S9mwO1Q">
+    <body>Entscheidet anhand der Menge der Daten welchen Solver für die Aufgabe &#xD;
+genommen wird.&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_8hf1MBbvEeaFtM-S9mwO1Q">
+    <body>Singleton&#xD;
+</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_AzRMYBbwEeaFtM-S9mwO1Q">
+    <body>Singleton</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_F8WmEBbwEeaFtM-S9mwO1Q">
+    <body>Facade</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_J8jsIBbwEeaFtM-S9mwO1Q">
+    <body>Singleton</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_NqYowBbwEeaFtM-S9mwO1Q">
+    <body>Singleton</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_nhV_sBbwEea3bcBa9rVU6A">
+    <body>Enthält alle möglichen Implementierungen von Solvers. &#xD;
+TODO Nachdenken über das Laden von Komponenten in Speicher&#xD;
+wenn diese gebraucht werden.</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_5ww9gBbwEea3bcBa9rVU6A">
+    <body>Nimmt Lösung von Solver&#xD;
+und wandelt es in brauchbaren &quot;Code&quot; &#xD;
+für Output.</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_MVbdUBYGEeavXd0Doi-_HA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
