@@ -69,6 +69,9 @@ für Output.</body>
       <body>Eine Art Activity-Log, bei dem alle möglichen Zustandsänderungen bzw. Abläufe gespichert werden.&#xD;
 Es hat aber eine begrenzte Anzahl von Speicherschritten, Bsp. max 50.</body>
     </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_jKsTEBbxEea3bcBa9rVU6A">
+      <body>Aktivity Log</body>
+    </ownedComment>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_39cPghYQEeaNKu81JL3t7w" name="Flow">
     <ownedComment xmi:type="uml:Comment" xmi:id="_39cPgxYQEeaNKu81JL3t7w" annotatedElement="_39cPghYQEeaNKu81JL3t7w">

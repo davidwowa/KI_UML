@@ -327,6 +327,11 @@
   <children xmi:type="notation:Shape" xmi:id="_39ghCxYQEeaNKu81JL3t7w" type="Package_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_39ghDBYQEeaNKu81JL3t7w" type="Package_NameLabel"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_39ghDRYQEeaNKu81JL3t7w" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_jKyZsBbxEea3bcBa9rVU6A" type="Comment_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jKzn0BbxEea3bcBa9rVU6A" type="Comment_BodyLabel"/>
+        <element xmi:type="uml:Comment" href="class_graph.uml#_jKsTEBbxEea3bcBa9rVU6A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jKyZsRbxEea3bcBa9rVU6A" x="5" y="2" width="101" height="21"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_39ghDhYQEeaNKu81JL3t7w"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_39ghDxYQEeaNKu81JL3t7w"/>
     </children>

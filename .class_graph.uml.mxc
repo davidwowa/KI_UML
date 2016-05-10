@@ -21,11 +21,12 @@
                     <entry key="de.wst.modelXChanger.C.export.CExporter.sourceFolderOption" value="C:\Users\toronto\git\KI_UML\KI2\c_source"/>
                     <entry key="de.wst.modelxchanger.c.export.copyAdditionalFiles" value="true"/>
                     <entry key="de.wst.modelXChanger.C.export.CExporter.alternativeTemplatesOption" value=""/>
-                    <entry key="de.wst.wstxchanger.core.exporterImporter.option.stacktrace" value="false"/>
+                    <entry key="de.wst.wstxchanger.core.exporterImporter.option.stacktrace" value="true"/>
                     <entry key="de.wst.modelXChanger.core.lastConfigFiles0" value="C:\Users\toronto\git\KI_UML\KI2\.class_graph.uml.mxc"/>
                     <entry key="de.wst.modelXChanger.core.lastUsedImporterKey" value="de.wst.modelXChanger.model.uml2.importer"/>
                     <entry key="de.wst.modelXChanger.core.lastUsedExporterKey" value="de.wst.modelXChanger.C.export.CExporter"/>
-                    <entry key="de.wst.modelXChanger.core.lastConfigFiles1" value="C:\Users\toronto\git\KI_UML\KI2\.common_architecture.uml.mxc"/>
+                    <entry key="de.wst.modelXChanger.core.lastConfigFiles1" value="C:\Users\toronto\git\KI_UML\KI2\.sensor.uml.mxc"/>
+                    <entry key="de.wst.modelXChanger.core.lastConfigFiles2" value="C:\Users\toronto\git\KI_UML\KI2\.common_architecture.uml.mxc"/>
                   </map>
                 </node>
               </node>
