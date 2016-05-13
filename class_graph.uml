@@ -38,6 +38,14 @@ wenn diese gebraucht werden.</body>
 und wandelt es in brauchbaren &quot;Code&quot; &#xD;
 für Output.</body>
   </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_5zUEABjZEeax4_7zp7kUiw">
+    <body>TODO &#xD;
+1. Belastung in FlowDecider&#xD;
+2. Plausibility-Sachen nochmal Überdenken&#xD;
+3. Solvers-Geschichten zwei Mal, einmal für das Festellen von Situation und einmal für Entschedungen&#xD;
+4. Zeitstempel&#xD;
+</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_MVbdUBYGEeavXd0Doi-_HA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>

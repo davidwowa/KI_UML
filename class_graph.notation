@@ -428,6 +428,11 @@
     <element xmi:type="uml:Comment" href="class_graph.uml#_5ww9gBbwEea3bcBa9rVU6A"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5wzZwRbwEea3bcBa9rVU6A" x="1290" y="310" width="161" height="60"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_501G8BjZEeax4_7zp7kUiw" type="Comment_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_505YYBjZEeax4_7zp7kUiw" type="Comment_BodyLabel"/>
+    <element xmi:type="uml:Comment" href="class_graph.uml#_5zUEABjZEeax4_7zp7kUiw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_501uABjZEeax4_7zp7kUiw" x="1070" y="630" width="361" height="101"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_MLRbwRYGEeavXd0Doi-_HA" name="diagram_compatibility_version" stringValue="1.2.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_MLRbwhYGEeavXd0Doi-_HA"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_MLRbwxYGEeavXd0Doi-_HA">
