@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ja6rkCBhEeaJy9OmsnX2wA" type="PapyrusUMLClassDiagram" name="Merapi Class Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lxs8wCBhEeaJy9OmsnX2wA" type="Class_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lxvZACBhEeaJy9OmsnX2wA" type="Class_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lxvZASBhEeaJy9OmsnX2wA" type="Class_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lxvZAiBhEeaJy9OmsnX2wA" y="5"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lxwnICBhEeaJy9OmsnX2wA" type="Class_AttributeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lxwnISBhEeaJy9OmsnX2wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lxwnIiBhEeaJy9OmsnX2wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lxwnIyBhEeaJy9OmsnX2wA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxwnJCBhEeaJy9OmsnX2wA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lxwnJSBhEeaJy9OmsnX2wA" type="Class_OperationCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lxwnJiBhEeaJy9OmsnX2wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lxwnJyBhEeaJy9OmsnX2wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lxwnKCBhEeaJy9OmsnX2wA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxwnKSBhEeaJy9OmsnX2wA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lxwnKiBhEeaJy9OmsnX2wA" type="Class_NestedClassifierCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_lxwnKyBhEeaJy9OmsnX2wA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lxwnLCBhEeaJy9OmsnX2wA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lxwnLSBhEeaJy9OmsnX2wA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxwnLiBhEeaJy9OmsnX2wA"/>
+    </children>
+    <element xmi:type="uml:Class" href="solvers.uml#_lxhWkCBhEeaJy9OmsnX2wA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lxs8wSBhEeaJy9OmsnX2wA" x="440" y="200" width="161" height="181"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_ja6rkSBhEeaJy9OmsnX2wA" name="diagram_compatibility_version" stringValue="1.2.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ja6rkiBhEeaJy9OmsnX2wA"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_ja6rkyBhEeaJy9OmsnX2wA">
+    <owner xmi:type="uml:Model" href="solvers.uml#_jZpgQCBhEeaJy9OmsnX2wA"/>
+    <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/de.ostfalia.merapi.uml.diagram/resources/configuration/MerapiUML.configuration#_IpH4IEbYEeWJh8evOXRbXg"/>
+  </styles>
+  <element xmi:type="uml:Model" href="solvers.uml#_jZpgQCBhEeaJy9OmsnX2wA"/>
+</notation:Diagram>
